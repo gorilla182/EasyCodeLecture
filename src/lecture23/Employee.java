@@ -18,7 +18,7 @@ public abstract class Employee {
     }
     @Override
     public String toString(){
-        return "Уровень: " + getClass().getSimpleName() + " Опыт: " + experience + " зарплата: " + salary;
+        return "Уровень: " + getClass().getSimpleName() + " Опыт: " + experience;
     }
     protected void getStack(){
         System.out.println("Стэк технологий: ");
