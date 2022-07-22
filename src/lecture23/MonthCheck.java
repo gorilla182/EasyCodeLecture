@@ -4,36 +4,48 @@ import java.util.Scanner;
 
 public class MonthCheck {
 
-    public int daysInMonth(String numberOfMonth){
+    public int daysInMonth(){
         int days = 0;
-        int month = Integer.parseInt(numberOfMonth);
-        switch (month) {
-            case 1:
+        Scanner scanner = new Scanner(System.in);
+        String numberOfMonth = scanner.nextLine();
+        switch (numberOfMonth) {
+            case "Январь":
                 days = 31;
-            case 2:
+                break;
+            case "Февраль":
                 days = 30;
-            case 3:
+                break;
+            case "Март":
                 days = 31;
-            case 4:
+                break;
+            case "Апрель":
                 days = 30;
-            case 5:
+                break;
+            case "Май":
                 days = 31;
-            case 6:
+                break;
+            case "Июнь":
                 days = 30;
-            case 7:
+                break;
+            case "Июль":
                 days = 31;
-            case 8:
+                break;
+            case "Август":
                 days = 30;
-            case 9:
+                break;
+            case "Сентябрь":
                 days = 31;
-            case 10:
+                break;
+            case "Октябрь":
                 days = 30;
-            case 11:
+                break;
+            case "Ноябрь":
                 days = 31;
-            case 12:
+                break;
+            case "Декабрь":
                 days = 30;
+                break;
         }
         return days;
-
     }
 }
