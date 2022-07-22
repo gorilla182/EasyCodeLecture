@@ -8,41 +8,53 @@ public class MonthCheck {
         int days = 0;
         Scanner scanner = new Scanner(System.in);
         String numberOfMonth = scanner.nextLine();
-        switch (numberOfMonth) {
-            case "Январь":
+        switch (numberOfMonth.toLowerCase()) {
+            case "январь":
+            case "january":
                 days = 31;
                 break;
-            case "Февраль":
+            case "февраль":
+            case "february":
                 days = 30;
                 break;
-            case "Март":
+            case "март":
+            case "march":
                 days = 31;
                 break;
-            case "Апрель":
+            case "апрель":
+            case "april":
                 days = 30;
                 break;
-            case "Май":
+            case "май":
+            case "may":
                 days = 31;
                 break;
-            case "Июнь":
+            case "июнь":
+            case "june":
                 days = 30;
                 break;
-            case "Июль":
+            case "июль":
+            case "july":
                 days = 31;
                 break;
-            case "Август":
+            case "август":
+            case "august":
                 days = 30;
                 break;
-            case "Сентябрь":
+            case "сентябрь":
+            case "september":
                 days = 31;
                 break;
-            case "Октябрь":
+            case "октябрь":
+            case "october":
                 days = 30;
                 break;
-            case "Ноябрь":
+            case "ноябрь":
+            case "november":
                 days = 31;
                 break;
-            case "Декабрь":
+            case "декабрь":
+            case "december":
                 days = 30;
                 break;
         }
