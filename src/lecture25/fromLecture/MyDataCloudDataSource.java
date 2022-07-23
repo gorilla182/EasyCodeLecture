@@ -6,6 +6,6 @@ public class MyDataCloudDataSource implements DataSource<MyData>{
     @Override
     @Nullable
     public MyData getData() {
-        return new MyData(1,"description_1");
+        return new MyData(1,"katushka");
     }
 }
